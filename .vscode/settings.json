@@ -1,17 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "editor.tabSize": 2,
-  
-  "go.lintTool": "gometalinter",
-  "go.lintFlags": [
-    "--enable-gc",
-    "--no-config",
-    "--exclude=.*\\.pb\\.go",
-    "--disable=gas",
-    "--disable=gocyclo"
-  ],
-  "go.formatTool": "goimports",
-
   "protoc": {
     "options": [
       "--proto_path=${env.GOPATH}/src/",
